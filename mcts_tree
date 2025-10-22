@@ -1,0 +1,548 @@
+digraph {
+	0 [label="state((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	0 -> 1 [label=east]
+	1 [color=black fillcolor=black shape=box style=filled]
+	12 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	1 -> 12 [label="east:0.80"]
+	12 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	12 -> 27 [label=east]
+	27 [color=black fillcolor=black shape=box style=filled]
+	13 [label="V((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	1 -> 13 [label="east:0.10"]
+	13 [label="state((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	14 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	1 -> 14 [label="east:0.10"]
+	14 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	0 -> 2 [label=south]
+	2 [color=black fillcolor=black shape=box style=filled]
+	3 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	2 -> 3 [label="south:0.80"]
+	3 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	3 -> 6 [label=north]
+	6 [color=black fillcolor=black shape=box style=filled]
+	15 [label="V((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	6 -> 15 [label="north:0.80"]
+	15 [label="state((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	15 -> 22 [label=east]
+	22 [color=black fillcolor=black shape=box style=filled]
+	15 -> 23 [label=south]
+	23 [color=black fillcolor=black shape=box style=filled]
+	24 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	23 -> 24 [label="south:0.80"]
+	24 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	24 -> 29 [label=east]
+	25 [label="V((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	23 -> 25 [label="south:0.10"]
+	25 [label="state((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	25 -> 28 [label=south]
+	26 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	23 -> 26 [label="south:0.10"]
+	26 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	26 -> 31 [label=west]
+	16 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	6 -> 16 [label="north:0.10"]
+	16 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	16 -> 19 [label=north]
+	19 [color=black fillcolor=black shape=box style=filled]
+	16 -> 30 [label=east]
+	30 [color=black fillcolor=black shape=box style=filled]
+	17 [label="V((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	6 -> 17 [label="north:0.10"]
+	17 [label="state((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	3 -> 7 [label=south]
+	7 [color=black fillcolor=black shape=box style=filled]
+	9 [label="V((2, 0))=-0.44
+N=12626" color=black fillcolor=white shape=circle style=filled]
+	7 -> 9 [label="south:0.80"]
+	9 [label="state((2, 0))=-0.44
+N=12626" color=black fillcolor=white shape=circle style=filled]
+	9 -> 20 [label=south]
+	20 [color=black fillcolor=black shape=box style=filled]
+	36 [label="V((3, 0))=-0.44
+N=10561" color=black fillcolor=white shape=circle style=filled]
+	20 -> 36 [label="south:0.80"]
+	36 [label="state((3, 0))=-0.44
+N=10561" color=black fillcolor=white shape=circle style=filled]
+	36 -> 40 [label=north]
+	36 -> 41 [label=east]
+	36 -> 43 [label=south]
+	37 [label="V((2, 0))=-0.44
+N=12626" color=black fillcolor=white shape=circle style=filled]
+	20 -> 37 [label="south:0.10"]
+	37 [label="state((2, 0))=-0.44
+N=12626" color=black fillcolor=white shape=circle style=filled]
+	37 -> 42 [label=north]
+	37 -> 52 [label=south]
+	37 -> 63 [label=east]
+	38 [label="V((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	20 -> 38 [label="south:0.10"]
+	38 [label="state((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	38 -> 39 [label=south]
+	38 -> 60 [label=west]
+	38 -> 67 [label=north]
+	38 -> 82 [label=east]
+	9 -> 21 [label=north]
+	21 [color=black fillcolor=black shape=box style=filled]
+	9 -> 32 [label=east]
+	32 [color=black fillcolor=black shape=box style=filled]
+	33 [label="V((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	32 -> 33 [label="east:0.80"]
+	33 [label="state((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	33 -> 64 [label=south]
+	33 -> 326 [label=north]
+	34 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	32 -> 34 [label="east:0.10"]
+	34 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	35 [label="V((3, 0))=-0.44
+N=10561" color=black fillcolor=white shape=circle style=filled]
+	32 -> 35 [label="east:0.10"]
+	35 [label="state((3, 0))=-0.44
+N=10561" color=black fillcolor=white shape=circle style=filled]
+	10 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	7 -> 10 [label="south:0.10"]
+	10 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	10 -> 76 [label=south]
+	76 [color=black fillcolor=black shape=box style=filled]
+	109 [label="V((2, 0))=-0.44
+N=12626" color=black fillcolor=white shape=circle style=filled]
+	76 -> 109 [label="south:0.80"]
+	109 [label="state((2, 0))=-0.44
+N=12626" color=black fillcolor=white shape=circle style=filled]
+	109 -> 127 [label=east]
+	109 -> 140 [label=south]
+	109 -> 162 [label=north]
+	110 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	76 -> 110 [label="south:0.10"]
+	110 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	110 -> 575 [label=north]
+	110 -> 860 [label=east]
+	110 -> 1482 [label=south]
+	111 [label="V((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	76 -> 111 [label="south:0.10"]
+	111 [label="state((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	111 -> 511 [label=north]
+	111 -> 571 [label=south]
+	111 -> 686 [label=east]
+	111 -> 922 [label=west]
+	10 -> 95 [label=east]
+	95 [color=black fillcolor=black shape=box style=filled]
+	10 -> 99 [label=north]
+	99 [color=black fillcolor=black shape=box style=filled]
+	11 [label="V((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	7 -> 11 [label="south:0.10"]
+	11 [label="state((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	11 -> 69 [label=north]
+	69 [color=black fillcolor=black shape=box style=filled]
+	11 -> 98 [label=east]
+	98 [color=black fillcolor=black shape=box style=filled]
+	178 [label="V((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	98 -> 178 [label="east:0.80"]
+	178 [label="state((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	178 -> 1209 [label=north]
+	178 -> 1432 [label=south]
+	178 -> 1439 [label=west]
+	178 -> 1596 [label=east]
+	179 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	98 -> 179 [label="east:0.10"]
+	179 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	180 [label="V((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	98 -> 180 [label="east:0.10"]
+	180 [label="state((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	180 -> 206 [label=south]
+	180 -> 2049 [label=north]
+	180 -> 2154 [label=west]
+	11 -> 107 [label=south]
+	107 [color=black fillcolor=black shape=box style=filled]
+	316 [label="V((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	107 -> 316 [label="south:0.80"]
+	316 [label="state((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	316 -> 344 [label=west]
+	316 -> 374 [label=north]
+	316 -> 379 [label=south]
+	316 -> 387 [label=east]
+	317 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	107 -> 317 [label="south:0.10"]
+	317 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	317 -> 439 [label=east]
+	317 -> 812 [label=north]
+	317 -> 848 [label=south]
+	318 [label="V((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	107 -> 318 [label="south:0.10"]
+	318 [label="state((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	318 -> 319 [label=east]
+	318 -> 470 [label=west]
+	318 -> 494 [label=north]
+	318 -> 1077 [label=south]
+	11 -> 113 [label=west]
+	113 [color=black fillcolor=black shape=box style=filled]
+	123 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	113 -> 123 [label="west:0.80"]
+	123 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	123 -> 1355 [label=north]
+	124 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	113 -> 124 [label="west:0.10"]
+	124 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	125 [label="V((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	113 -> 125 [label="west:0.10"]
+	125 [label="state((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	3 -> 8 [label=east]
+	8 [color=black fillcolor=black shape=box style=filled]
+	4 [label="V((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	2 -> 4 [label="south:0.10"]
+	4 [label="state((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	4 -> 18 [label=east]
+	18 [color=black fillcolor=black shape=box style=filled]
+	4 -> 75 [label=south]
+	75 [color=black fillcolor=black shape=box style=filled]
+	83 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	75 -> 83 [label="south:0.80"]
+	83 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	83 -> 108 [label=south]
+	108 [color=black fillcolor=black shape=box style=filled]
+	169 [label="V((2, 0))=-0.44
+N=12626" color=black fillcolor=white shape=circle style=filled]
+	108 -> 169 [label="south:0.80"]
+	169 [label="state((2, 0))=-0.44
+N=12626" color=black fillcolor=white shape=circle style=filled]
+	169 -> 177 [label=north]
+	169 -> 205 [label=east]
+	169 -> 212 [label=south]
+	170 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	108 -> 170 [label="south:0.10"]
+	170 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	170 -> 186 [label=north]
+	170 -> 482 [label=east]
+	170 -> 936 [label=south]
+	171 [label="V((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	108 -> 171 [label="south:0.10"]
+	171 [label="state((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	171 -> 249 [label=north]
+	171 -> 499 [label=east]
+	171 -> 520 [label=south]
+	171 -> 891 [label=west]
+	83 -> 115 [label=north]
+	115 [color=black fillcolor=black shape=box style=filled]
+	83 -> 145 [label=east]
+	145 [color=black fillcolor=black shape=box style=filled]
+	84 [label="V((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	75 -> 84 [label="south:0.10"]
+	84 [label="state((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	84 -> 129 [label=south]
+	129 [color=black fillcolor=black shape=box style=filled]
+	250 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	129 -> 250 [label="south:0.80"]
+	250 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	250 -> 276 [label=north]
+	250 -> 407 [label=east]
+	250 -> 531 [label=south]
+	251 [label="V((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	129 -> 251 [label="south:0.10"]
+	251 [label="state((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	251 -> 1477 [label=south]
+	251 -> 1929 [label=east]
+	252 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	129 -> 252 [label="south:0.10"]
+	252 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	252 -> 976 [label=south]
+	252 -> 2417 [label=east]
+	84 -> 151 [label=east]
+	151 [color=black fillcolor=black shape=box style=filled]
+	85 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	75 -> 85 [label="south:0.10"]
+	85 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	85 -> 167 [label=south]
+	167 [color=black fillcolor=black shape=box style=filled]
+	85 -> 277 [label=west]
+	277 [color=black fillcolor=black shape=box style=filled]
+	85 -> 288 [label=east]
+	288 [color=black fillcolor=black shape=box style=filled]
+	327 [label="V((0, 2))=-0.45
+N=564" color=black fillcolor=white shape=circle style=filled]
+	288 -> 327 [label="east:0.80"]
+	327 [label="state((0, 2))=-0.45
+N=564" color=black fillcolor=white shape=circle style=filled]
+	327 -> 360 [label=west]
+	327 -> 459 [label=south]
+	327 -> 484 [label=east]
+	328 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	288 -> 328 [label="east:0.10"]
+	328 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	328 -> 563 [label=west]
+	328 -> 1365 [label=east]
+	328 -> 1763 [label=south]
+	329 [label="V((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	288 -> 329 [label="east:0.10"]
+	329 [label="state((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	329 -> 2541 [label=south]
+	329 -> 5361 [label=north]
+	5 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	2 -> 5 [label="south:0.10"]
+	5 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	5 -> 50 [label=east]
+	50 [color=black fillcolor=black shape=box style=filled]
+	117 [label="V((0, 2))=-0.45
+N=564" color=black fillcolor=white shape=circle style=filled]
+	50 -> 117 [label="east:0.80"]
+	117 [label="state((0, 2))=-0.45
+N=564" color=black fillcolor=white shape=circle style=filled]
+	117 -> 229 [label=south]
+	229 [color=black fillcolor=black shape=box style=filled]
+	268 [label="V((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	229 -> 268 [label="south:0.80"]
+	268 [label="state((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	268 -> 271 [label=north]
+	268 -> 278 [label=south]
+	268 -> 299 [label=east]
+	268 -> 301 [label=west]
+	269 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	229 -> 269 [label="south:0.10"]
+	269 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	269 -> 542 [label=south]
+	269 -> 1276 [label=west]
+	269 -> 1606 [label=east]
+	270 [label="V((0, 3))=-0.42
+N=61" color=black fillcolor=white shape=circle style=filled]
+	229 -> 270 [label="south:0.10"]
+	270 [label="state((0, 3))=-0.42
+N=61" color=black fillcolor=white shape=circle style=filled]
+	270 -> 308 [label=south]
+	270 -> 352 [label=west]
+	270 -> 402 [label=east]
+	117 -> 236 [label=east]
+	236 [color=black fillcolor=black shape=box style=filled]
+	117 -> 238 [label=west]
+	238 [color=black fillcolor=black shape=box style=filled]
+	244 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	238 -> 244 [label="west:0.80"]
+	244 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	244 -> 248 [label=west]
+	244 -> 256 [label=south]
+	244 -> 988 [label=east]
+	245 [label="V((0, 2))=-0.45
+N=564" color=black fillcolor=white shape=circle style=filled]
+	238 -> 245 [label="west:0.10"]
+	245 [label="state((0, 2))=-0.45
+N=564" color=black fillcolor=white shape=circle style=filled]
+	246 [label="V((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	238 -> 246 [label="west:0.10"]
+	246 [label="state((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	118 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	50 -> 118 [label="east:0.10"]
+	118 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	118 -> 121 [label=south]
+	121 [color=black fillcolor=black shape=box style=filled]
+	118 -> 128 [label=east]
+	128 [color=black fillcolor=black shape=box style=filled]
+	587 [label="V((0, 2))=-0.45
+N=564" color=black fillcolor=white shape=circle style=filled]
+	128 -> 587 [label="east:0.80"]
+	587 [label="state((0, 2))=-0.45
+N=564" color=black fillcolor=white shape=circle style=filled]
+	587 -> 978 [label=west]
+	587 -> 1067 [label=south]
+	587 -> 1084 [label=east]
+	588 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	128 -> 588 [label="east:0.10"]
+	588 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	588 -> 2026 [label=south]
+	588 -> 4718 [label=west]
+	589 [label="V((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	128 -> 589 [label="east:0.10"]
+	589 [label="state((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	589 -> 632 [label=north]
+	589 -> 1194 [label=south]
+	589 -> 1639 [label=west]
+	589 -> 2083 [label=east]
+	118 -> 518 [label=west]
+	518 [color=black fillcolor=black shape=box style=filled]
+	119 [label="V((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	50 -> 119 [label="east:0.10"]
+	119 [label="state((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	119 -> 314 [label=east]
+	314 [color=black fillcolor=black shape=box style=filled]
+	2056 [label="V((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	314 -> 2056 [label="east:0.80"]
+	2056 [label="state((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	2056 -> 2177 [label=east]
+	2057 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	314 -> 2057 [label="east:0.10"]
+	2057 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	2058 [label="V((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	314 -> 2058 [label="east:0.10"]
+	2058 [label="state((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	119 -> 671 [label=south]
+	671 [color=black fillcolor=black shape=box style=filled]
+	960 [label="V((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	671 -> 960 [label="south:0.80"]
+	960 [label="state((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	960 -> 1155 [label=north]
+	960 -> 1366 [label=south]
+	960 -> 1518 [label=west]
+	960 -> 1708 [label=east]
+	961 [label="V((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	671 -> 961 [label="south:0.10"]
+	961 [label="state((1, 0))=-0.42
+N=4479" color=black fillcolor=white shape=circle style=filled]
+	961 -> 1014 [label=north]
+	961 -> 1931 [label=south]
+	961 -> 3006 [label=east]
+	962 [label="V((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	671 -> 962 [label="south:0.10"]
+	962 [label="state((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	962 -> 2202 [label=east]
+	962 -> 3688 [label=south]
+	962 -> 4938 [label=north]
+	119 -> 718 [label=north]
+	718 [color=black fillcolor=black shape=box style=filled]
+	119 -> 809 [label=west]
+	809 [color=black fillcolor=black shape=box style=filled]
+	5 -> 54 [label=west]
+	54 [color=black fillcolor=black shape=box style=filled]
+	5 -> 70 [label=south]
+	70 [color=black fillcolor=black shape=box style=filled]
+	71 [label="V((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	70 -> 71 [label="south:0.80"]
+	71 [label="state((1, 1))=-0.43
+N=999" color=black fillcolor=white shape=circle style=filled]
+	71 -> 74 [label=north]
+	74 [color=black fillcolor=black shape=box style=filled]
+	71 -> 135 [label=south]
+	135 [color=black fillcolor=black shape=box style=filled]
+	71 -> 152 [label=east]
+	152 [color=black fillcolor=black shape=box style=filled]
+	202 [label="V((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	152 -> 202 [label="east:0.80"]
+	202 [label="state((1, 2))=-0.45
+N=700" color=black fillcolor=white shape=circle style=filled]
+	202 -> 221 [label=south]
+	203 [label="V((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	152 -> 203 [label="east:0.10"]
+	203 [label="state((0, 1))=-0.43
+N=595" color=black fillcolor=white shape=circle style=filled]
+	204 [label="V((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	152 -> 204 [label="east:0.10"]
+	204 [label="state((2, 1))=-0.43
+N=2430" color=black fillcolor=white shape=circle style=filled]
+	71 -> 181 [label=west]
+	181 [color=black fillcolor=black shape=box style=filled]
+	72 [label="V((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	70 -> 72 [label="south:0.10"]
+	72 [label="state((0, 0))=-0.42
+N=4961" color=black fillcolor=white shape=circle style=filled]
+	73 [label="V((0, 2))=-0.45
+N=564" color=black fillcolor=white shape=circle style=filled]
+	70 -> 73 [label="south:0.10"]
+	73 [label="state((0, 2))=-0.45
+N=564" color=black fillcolor=white shape=circle style=filled]
+	73 -> 191 [label=south]
+	191 [color=black fillcolor=black shape=box style=filled]
+}
